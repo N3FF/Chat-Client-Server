@@ -1,0 +1,71 @@
+body{
+	font-family: "Arial", Arial, sans-serif;
+	font-size: 13pt;
+	/*font-weight:Bold;*/
+}
+span{
+	vertical-align: text-top;
+}
+#timeStamp{
+	font-size:8pt;
+	margin: 0 10px 0 10px;
+	vertical-align: text-bottom;
+}
+.username{
+	font-size:9pt;
+	padding-right:25px;
+	text-align:right;
+}
+.imgArrowLeft{
+	margin-right:-1px;
+	padding-left:20px;
+}
+.imgArrowRight{
+	margin-left:-1px;
+	padding-right:20px;
+}
+.userIcon{
+	padding:none;
+	margin:none;
+	float:left;
+	display:table-cell;
+	border-radius: 20px;
+	border:1px solid black;
+}
+.myChatSpan{
+	margin: 20px 0 15px 15px;
+	display:table;
+}
+.myChatBubble{
+	padding:15px;
+	background-color: rgb(245, 245, 245);
+	border:1px solid black;
+	border-radius: 15px;
+	display:table-cell;
+	color:black;
+	vertical-align: top;
+}
+.chatArrow{
+	padding-top:15px;
+	vertical-align: top;
+	display:table-cell;
+}
+.otherChatSpan{
+	margin: 20px 15px 5px auto;
+	display:table;
+}
+.otherChatBubble{
+	padding:15px;
+	background-color: rgb(57, 152, 216);
+	border: 1px solid black;
+	border-radius: 15px;
+	display:table-cell;
+	color:white;
+	vertical-align: top;
+	text-align:right;
+	
+}
+.lineDiv{
+	border:1px solid red;
+	text-align:right;
+}
